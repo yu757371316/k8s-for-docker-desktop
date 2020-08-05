@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file="images.properties"
+file="images"
 
 if [ -f "$file" ]
 then
@@ -17,4 +17,3 @@ then
 else
   echo "$file not found."
 fi
-
